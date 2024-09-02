@@ -2,9 +2,9 @@ import { RAPIDAPI_KEY } from './config';
 
 export const exerciseOptions = {
     method: 'GET',
-    url: RAPIDAPI_KEY,
+    url: 'https://exercisedb.p.rapidapi.com/status',
     headers: {
-        'x-rapidapi-key': 'fb98596c18msh8f95df476017e89p1c68dcjsn2d50e685d38f',
+        'x-rapidapi-key': RAPIDAPI_KEY,
         'x-rapidapi-host': 'exercisedb.p.rapidapi.com'
     }
 };
